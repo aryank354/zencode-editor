@@ -130,7 +130,7 @@ Generate suggestion:`
 async function generateSuggestion(prompt: string): Promise<string> {
   try {
     // Replace this with your actual AI service call
-    const response = await fetch("http://localhost:11434/api/generate", {
+    const response = await fetch("https://aryankanojia354-my-ollama-server.hf.space/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -33,7 +33,7 @@ Keep responses concise but comprehensive. Use code blocks with language specific
   const timeoutId = setTimeout(() => controller.abort(), 15000)
 
   try {
-    const response = await fetch("http://localhost:11434/api/generate", {
+    const response = await fetch("https://aryankanojia354-my-ollama-server.hf.space/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -94,7 +94,7 @@ Enhanced prompt should:
 Return only the enhanced prompt, nothing else.`
 
   try {
-    const response = await fetch("http://localhost:11434/api/generate", {
+    const response = await fetch("https://aryankanojia354-my-ollama-server.hf.space/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
