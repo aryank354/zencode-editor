@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-template-cache.js && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -48,6 +48,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
+    "fs-extra": "^11.3.2",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.507.0",
     "monaco-editor": "^0.52.2",
@@ -79,6 +80,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
