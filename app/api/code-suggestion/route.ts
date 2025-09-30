@@ -134,7 +134,7 @@ async function generateSuggestion(prompt: string): Promise<string> {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        model: "phi3:mini",
+        model: "gemma3:1b",
         prompt,
         stream: false,
         options: {
