@@ -39,7 +39,7 @@ Keep responses concise but comprehensive. Use code blocks with language specific
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "gemma3:1b",
+        model: " qwen:0.5b",
         prompt,
         stream: false,
         options: {
@@ -100,7 +100,7 @@ Return only the enhanced prompt, nothing else.`
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "gemma3:1b",
+        model: " qwen:0.5b",
         prompt: enhancementPrompt,
         stream: false,
         options: {
