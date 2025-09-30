@@ -16,7 +16,7 @@
   ],
   "functions": {
     "app/api/template/[id]/route.ts": {
-      "includeFiles": "zencode-starters/**"
+      "maxDuration": 30
     }
   }
 }
